@@ -1,44 +1,44 @@
-##### \# DACA Portfoolio
+# DACA Portfoolio
 
-##### \*\*Programm:\*\* Data Analyst Career Accelerator (DACA)
+ \*\*Programm:\*\* Data Analyst Career Accelerator (DACA)
+ 
+ \*\*Osaleja:\*\* Krista Hein
+ 
+ \*\*Algus:\*\* 24.03.2026
 
-##### \*\*Osaleja:\*\* Krista Hein
+## Kirjeldus
 
-##### \*\*Algus:\*\* 24.03.2026
+ee repositoorium sisaldab minu DACA õppeprojekte ja portfoolio.
 
-##### \## Kirjeldus
+## Projektid
 
-##### See repositoorium sisaldab minu DACA õppeprojekte ja portfoolio.
+### Week 0: Onboarding
 
-##### \## Projektid
+- GitHub seadistamine ✅
 
-##### \### Week 0: Onboarding
+- Supabase seadistamine ✅
 
-##### \- GitHub seadistamine ✅
+### Week 1: SQL Põhitõed
 
-##### \- Supabase seadistamine ✅
+- (tulemas...)
 
-##### \### Week 1: SQL Põhitõed
+### Week 2: SQL Andmete Puhastamine
 
-##### \- (tulemas...)
+- (tulemas...)
 
-##### \### Week 2: SQL Andmete Puhastamine
+## Oskused
 
-##### \- (tulemas...)
+- \*\*SQL:\*\* PostgreSQL, Supabase
 
-##### \## Oskused
+- \*\*Python:\*\* pandas, plotly (tulemas...)
 
-##### \- \*\*SQL:\*\* PostgreSQL, Supabase
+- \*\*Visualiseerimine:\*\* Power BI / Streamlit (tulemas...)
 
-##### \- \*\*Python:\*\* pandas, plotly (tulemas...)
+- \*\*Tööriistad:\*\* Git, GitHub, VS Code
 
-##### \- \*\*Visualiseerimine:\*\* Power BI / Streamlit (tulemas...)
+## Kontakt
 
-##### \- \*\*Tööriistad:\*\* Git, GitHub, VS Code
+- \*\*GitHub:\*\* \[github.com/krista-hein](https://github.com/krista-hein)
 
-##### \## Kontakt
-
-##### \- \*\*GitHub:\*\* \[github.com/krista-hein](https://github.com/krista-hein)
-
-##### \- \*\*Email:\*\* kristahein.mail@gmail.com
+- \*\*Email:\*\* kristahein.mail@gmail.com
 
