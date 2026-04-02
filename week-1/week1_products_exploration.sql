@@ -144,9 +144,12 @@ Tabelis on 5 tootekategooriat ning igas kategooriates on keskmiselt 72 toodet.
  * Kõige kallim toode on 434.08€. 
 	* Keskmine müügihind on ~163€.
 
+Puudub info toodete koguse kohta.
+
 Keskmine kate toodetel on 33%, aga hulga toodete müügihind on tunduvalt madalam, kui soetushind. 
 	- Tuleks uurida, mis põhjusel on toodete müügihind alla soetushinna. Kas tegu on veaga, või tooted ei müü ning on määratud suur allahindlus.
 
 Väike märkamine. Kategooriate nimetustes on kirjaviga "jalanõusid" -> "Jalanõud".
 
-Tootede tabel on üldiselt heas seisus, tuleks täpsustada 18 toote eco_sertifikaadi olemasolu ning üle vaadata probleemsete müügihindadega tooted.*/
+Tootede tabel on üldiselt heas seisus, tuleks täpsustada 18 toote eco_sertifikaadi olemasolu ning üle vaadata probleemsete müügihindadega tooted. 
+Tuleks läbi viia inventuur, et teha kindlaks iga toote kogus.*/
