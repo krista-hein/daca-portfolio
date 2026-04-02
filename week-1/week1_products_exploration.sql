@@ -1,13 +1,17 @@
+/*Antud koodi ei tohiks tervikuna jooksutada, kuna fail sisaldab hulga erinevaid päringuid, mida tuleks eraldiseivatena jooksutada. 
+Kõik eraldiseisvad päringud on eraldatud kommentaaride ning semikooloniga.*/
+
+
 -- Leian products andmestikus olevate toodete koguarvu.
 select
   count(*) AS Toodete_arv
-from products
+from products;
 
 -- Leian, milliseid tootekategooriad UrbaStyle müüb.
 select distinct
   category
 from
-  products
+  products;
   
 -- Leian 10 kõige kallima omahinnaga toodet.
 select
@@ -17,7 +21,7 @@ select
   retail_price
 from   products
 Order by cost_price desc
-limit 10
+limit 10;
 
 -- Leian 10 kõige kallima müüghinnaga toodet.
 select
@@ -26,7 +30,7 @@ select
   retail_price
 from   products
 Order by retail_price desc
-limit 10
+limit 10;
 
 -- Leian 10 kõige odavama omahinnaga toodet.
 select
@@ -36,7 +40,7 @@ select
   cost_price
 from   products
 Order by cost_price asc
-limit 10
+limit 10;
 
 -- Leian 10 kõige odavama müüghinnaga toodet.
 select
@@ -46,55 +50,55 @@ select
   cost_price
 from   products
 Order by retail_price asc
-limit 10
+limit 10;
 
 -- Valin ühe toote kategooria, mida uurida
 select *
 from   products
 where category = 'aksessuaarid'
-order by retail_price desc
+order by retail_price desc;
 
 -- Leian puuduva omahinnaga tooted.
 select
 	count(*) AS toodete_koguarv,
 	count(cost_price) AS omahinnaga_tooted,
 	count(*) - count(cost_price) AS puuduvad_hinnad
-From products
+From products;
 
 -- Leian puuduva müügihinnaga tooted.
 select
 	count(*) AS toodete_koguarv,
 	count(retail_price) AS müügihinnaga_tooted,
 	count(*) - count(retail_price) AS puuduvad_hinnad
-From products
+From products;
 
 -- Leian puuduvate kategooriatega tooted.
 select
 	count(*) AS toodete_arv,
 	count(category) AS määratud_kategooriad,
 	count(*) - count(category) AS puuduvad_kategooriad
-from products
+from products;
 
 -- Leian puuduvate alamkategooriatega tooted.
 select
 	count(*) AS toodete_arv,
 	count(subcategory) AS määratud_alamkategooriad,
 	count(*) - count(subcategory) AS puuduvad_alamkategooriad
-from products
+from products;
 
 -- Leian puuduvate tarnijatega tooted.
 select
 	count(*) AS toodete_arv,
 	count(supplier) AS tarnija,
 	count(*) - count(supplier) AS puuduvad_tarnijad
-from products
+from products;
 
 -- Leian puuduvate sertifikaatidega tooted.
 select
 	count(*) AS toodete_arv,
 	count(eco_certified) AS sertifikaat,
 	count(*) - count(eco_certified) AS puuduvad_sertifikaadid
-from products
+from products;
 
 -- Leian minimaalsed, maksimaalsed ja keskmised tootehinnad.
 select
@@ -107,7 +111,7 @@ select
 	min(retail_price) AS min_müügihind,
 	sum(retail_price) AS sum_müügihind,
 	sum(retail_price)/ count(*) AS kesk_müügihind
-from products
+from products;
 
 -- Loe tooted kategooriati kokku
 SELECT 
@@ -115,7 +119,7 @@ SELECT
 COUNT(*) AS toodete_arv   
 FROM products   
 GROUP BY category   
-ORDER BY toodete_arv DESC
+ORDER BY toodete_arv DESC;
 
 -- Leian toodete marginaalid ning toon välja tooted, mille puhul soetushind ületab müügihinna.
 SELECT 
@@ -127,7 +131,7 @@ SELECT
     created_at
 FROM products
 where retail_price < cost_price
-ORDER BY margin_percentage DESC
+ORDER BY margin_percentage DESC;
 
 
 /*Uurisin products tabelit. 
