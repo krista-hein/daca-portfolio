@@ -117,7 +117,7 @@ FROM products
 GROUP BY category   
 ORDER BY toodete_arv DESC
 
--- Leian toodete marginaalid
+-- Leian toodete marginaalid ning toon välja tooted, mille puhul soetushind ületab müügihinna.
 SELECT 
     product_name, 
     retail_price, 
@@ -126,12 +126,8 @@ SELECT
     ((retail_price - cost_price) / retail_price) * 100 AS margin_percentage, -- Kate protsentides
     created_at
 FROM products
-ORDER BY margin_percentage DESC
-
--- Leian kui paljudel toodete puhul on soetusmaksumus suurem kui müügihind.
-select *
-from products
 where retail_price < cost_price
+ORDER BY margin_percentage DESC
 
 
 /*Uurisin products tabelit. 
