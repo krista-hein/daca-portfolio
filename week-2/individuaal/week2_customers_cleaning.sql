@@ -1,3 +1,10 @@
+-- Roll - Urbanstyle kliendiandmete puhastamine
+-- Üleasanne - Leia duplikaatsed e-mailid, puuduvad nimed ja ebajärjekindlad linnanimed customers tabelis. Loo test koopia, puhasta ja dokumenteeri.
+-- Sisend - Tabel: customers
+-- Väljund: Puhastamisraport (duplikaadid leitud, NULL-id leitud, formaadivead, soovitused) + SQL skript
+-- Autor: Krista Hein
+
+
 /*Toomas Kask (IT Director, UrbanStyle.ltd):
 "Leidsin just 847 duplikaattelimust! Kui palju neid igas domeenis on?
 Eilses mentorsessioonis ma näitasin teile, kuidas DELETE ja UPDATE töötavad — ja miks need on OHTLIKUD. Nüüd tuleb päris töö.
@@ -5,11 +12,6 @@ Meie andmebaasis on NELI kriitilist domeeni, mida tuleb puhastada: müügiandmed
 Reegel: TEST KOOPIA KÕIGEPEALT. Siis puhasta. Siis kontrolli. Siis dokumenteeri.
 Juhatuse koosolek on 2 nädala pärast — Kristi tahab puhtaid numbreid. Ärge laske mind alt!"
 */
-
--- Roll - Kliendiandmete puhasta
--- Üleasanne - Leia duplikaatsed e-mailid, puuduvad nimed ja ebajärjekindlad linnanimed customers tabelis. Loo test koopia, puhasta ja dokumenteeri.
--- Sisend - Tabel: customers
--- Väljund: Puhastamisraport (duplikaadid leitud, NULL-id leitud, formaadivead, soovitused) + SQL skript
 
 -- Loon customers tabeli test koopia - Ridade arv = 3150
 CREATE TABLE customers_test AS 
