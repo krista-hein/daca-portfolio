@@ -1,3 +1,6 @@
+-- Urbanstyle Tooteandmete analüüs (Roll c)
+-- Autor: Krista Hein
+
 /*Antud koodi ei tohiks tervikuna jooksutada, kuna fail sisaldab hulga erinevaid päringuid, mida tuleks eraldiseivatena jooksutada. 
 Kõik eraldiseisvad päringud on eraldatud kommentaaride ning semikooloniga.*/
 
