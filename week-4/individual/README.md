@@ -19,3 +19,6 @@
  2. Süsteemide integratsioon: IT-direktor peab lisama müügitabelisse session_id tunnuse. Praegune süsteemide killustatus ei võimalda täpselt hinnata, milline kampaania viis millise ostuni.
  3. SEO fookuse hoidmine: Jätkata investeeringuid orgaanilisse nähtavusse (SEO), kuna Google Organic on tõestatult kõige kvaliteetsem ja tulusam kanal.
  4. 2023. aasta anomaalia auditeerimine: On vaja selgeks teha, kas 2023. aasta liikluse kasv on reaalne edu või andmeviga, et vältida moonutatud järeldusi investorite ees.
+
+ ## AI kasutamine
+ Kasutasin AI-d (ChatGPT), et struktureerida keerukat CTE päringut, mis pakkis lehevaatamised (page views) kokku unikaalseteks sessioonideks ning arvutas konversioonimäära seadmete lõikes.
