@@ -1,4 +1,4 @@
-# Nädal 5 - SQL Agregatsioon
+# Nädal 5 - Visualiseerimise disain – UrbanStyle’i koond-dashboard
 
 ## Ülevaade
 Selle nädala väljakutse keskmes oli andmetest "loo" jutustamine ja kolme erineva osapoole (stakeholder’i) vajaduste rahuldamine samade andmete põhjal. Lõime tervikliku "ühe vaate" (One-Pager) lahenduse, mis rakendab parimaid andmevisualiseerimise põhimõtteid (hierarhia, data-ink ratio, bränding), et muuta keerukad numbrid kiirelt haaratavateks äriotsusteks.
