@@ -12,7 +12,7 @@ Selle nädala fookuses oli üleminek puhtalt andmete esitamiselt andmelugude jut
     * Kõigi kanalite strateegiline võrdlus: E-pood (Growth Engine) vs Tallinn (Cash Cow).
     * Ühiste mustrite tuvastamine, nagu detsembri müügitipp ja jalanõude domineerimine regioonides.
     * Strateegiline fookus: anonüümsete ostjate konverteerimine püsikliendiks.
-    * Kombineeritud esitulus.
+    * Kombineeritud esitlus.
 
 ## Kasutatud tehnoloogiad ja oskused
 * **Visualiseerimine**: Power BI (.pbix), interaktiivsed annotatsioonid ja viitejooned.
