@@ -22,7 +22,7 @@ Minu ülesandeks oli ehitada süsteemi "aju" ehk pipeline.py, mis orkestreerib k
 ## Süsteemi käivitamine
 1. Veendu, et on aktiveeritud virtuaalkeskkond.
 2. .env failis on SUPABASE_URL ja SUPABASE_KEY seadistatud.
-3. Käivita pipeline:
+3. Käivita pipeline.
 4. Tulemused ilmuvad automaatselt output/ kausta.
 
 ## AI Kasutamine
