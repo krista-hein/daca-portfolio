@@ -1,100 +1,106 @@
-# DACA Portfoolio
+# DACA Portfolio
 
- \*\*Programm:\*\* Data Analyst Career Accelerator (DACA)
+ **Programm:** Data Analyst Career Accelerator (DACA)
 
- \*\*Osaleja:\*\* Krista Hein
+ **Participant:** Krista Hein
  
- \*\*Algus:\*\* 24.03.2026
+ **Algus:** 24.03.2026
 
-## Kirjeldus
+## Portfolio description
 
 See repositoorium sisaldab minu DACA õppeprojekte ja portfooliot.
 
-## Projektid
+## Projects
 
 ### Week 0: Onboarding
 
-* Fookus tööriistade seadistamisel:
-    - GitHub seadistamine ✅
-    - Supabase seadistamine ✅
-    - VS Code seadistamine ✅
-    - Power BI ✅
-    - Python seadistamine ✅
-    - NotebookLM seadistamine ✅
-* Tutvumine UrbanStyle meeskonnaga ja ärikontekstiga.
-* Tutvumine oma meeskonnaga ning Charteri loomine.
+* Focused on setting up the development environment and tools:
+ - GitHub setup ✅
+ - Supabase setup ✅
+ - VS Code setup ✅
+ - Power BI setup ✅
+ - Python setup ✅
+ - NotebookLM setup ✅
+* Learned about UrbanStyle business case and project context.
+* Met the project team and created a team charter.
 
-### Week 1: SQL Põhitõed ja andmete avastamine
+### Week 1: SQL Fundamentals and Data Exploration
 
-* Andmebaasist andmete pärimine SQLiga:
-    - SELECT, WHERE, ORDER BY, LIMIT
-* UrbanStyle tabelite esmane audit, et mõista andmete mahtu ja struktuuri.
+* Retrieved and explored data using SQL:
+ - SELECT, WHERE, ORDER BY, LIMIT
+* Conducted an initial audit of UrbanStyle datasets to understand data volume, structure, and quality.
 
-### Week 2: SQL Andmete Puhastamine
+### Week 2: SQL Data Cleaning
 
-* Fookuses andmekvaliteedi saavutamine:
-    - duplikaatide eemaldamine,
-    - NULL väärtuste käsitlemine,
-    - tekstiväljade ühtlustamine.
-* Lõime testkoopiad
-* dokumenteerisime puhastusprotsessi audit log abil
+* Focused on improving data quality:
+ - Removing duplicate records,
+ - Handling NULL values,
+ - Standardizing text fields.
+* Created test copies of datasets before making changes.
+* Documented the cleaning process using an audit log.
 
-### Week 3: SQL JOINid ja andmete ühendamine
+### Week 3: SQL Joins and Data Integration
 
-* Tabelite ühendamine:
-    - INNER, LEFT, FULL JOIN
-* Kes on parimad kliendid (sales, customers)
-* Millised tooted pole kunagi müünud (sales, products)
+* Combined data from multiple tables using:
+ - INNER JOIN, LEFT JOIN, FULL JOIN
+* Analyzed customer purchasing behavior using sales and customer data.
+* Identified products with no recorded sales using sales and product data.
 
-### Week 4: SQL agregatsioon ja äri-KPI-d
+### Week 4: SQL Aggregation and Business KPIs
 
-* Andmete koondamine:
-    - GROUP BY, HAVING
-* KPIde arvutamine
-* CTE-d ja aknafunktsioonid
+* Aggregated and summarized data using:
+  - GROUP BY, HAVING
+* Calculated key business performance indicators (KPIs).
+* Applied Common Table Expressions (CTEs) and window functions for advanced analysis.
 
-### Week 5: Visualiseerimine Power BI-ga
+### Week 5: Data Visualization with Power BI
 
-* Andmete visualiseeriise põhimõtted:
-    - õige diagrammitüübi valik,
-    - *data-ink ratio*,
-    - dashboard hierarhia
-* Sidusrühmadele suunitlus
+* Learned key principles of effective data visualization:
+ - Selecting appropriate chart types,
+ - Applying the data-ink ratio concept,
+ - Designing dashboard hierarchy and layout.
+* Focused on stakeholder-oriented reporting and dashboard design.
 
-### Week 6: Andmelugude jutustamine (Storytelling)
+### Week 6: Data Storytelling
 
-* Dashboard'ide viimistlemine narratiiviks
-    - juhtide kokkuvõte (executive summary),
-    - annotatsioonid,
-    - andmete esitlemine.
+* Refined dashboards into business-focused narratives:
+ - Executive summaries,
+ - Annotations and contextual insights,
+ - Presenting data effectively to stakeholders
 
-### Week 7: Python ja Pandas – Kliendisegmenteerimine
+### Week 7: Python and Pandas – Customer Segmentation
 
-* Üleminek SQL-ilt Pythonile:
-    - pandas
-    - RFM analüüs
+* Transitioned from SQL-based analysis to Python:
+ - Pandas
+ - RFM analysis
+* Performed customer segmentation based on purchasing behavior.
 
-### Week 8: API-d ja automatiseeritud andmetoru (Pipeline)
+### Week 8: APIs and Automated Data Pipelines
 
-* Automatiseeritud andmetoru loomine:
-    - pärib andmed SupaBase APIst,
-    - puhastab andmed,
-    - genereerib joonised ja outputid.
-* Koodi modulaasrus, veakäsitlus, logimine
+* Built an automated data pipeline that:
+ - Retrieved data from the Supabase API,
+ - Cleaned and transformed the data,
+ - Generated visualizations and outputs automatically.
+* Applied modular programming principles, error handling, and logging.
 
-### Week 9: Karjääri integratsioon ja värbaja vaade
+### Week 9: Career Integration and Recruiter Perspective
 
-* Ettevalmistus tööturule sisenemiseks.
-    - Andmeanalalüütiku CV koostamine.
-    - LinkedIN profiili viimistlemine.
-    - Värbamisprotsess läbi tööandja silmade.
+* Prepared for entering the job market:
+ - Developed a data analyst CV,
+ - Optimized LinkedIn profile,
+ - Explored the recruitment process from an employer's perspective.
 
 
 ### Week 10: 
 
             (Tulemas... )
 
-## Oskused
+### Week 11:
+
+            (Tulemas... )
+
+
+## Developed Skills
 
 - \*\*SQL:\*\* PostgreSQL, Supabase
 
@@ -104,7 +110,7 @@ See repositoorium sisaldab minu DACA õppeprojekte ja portfooliot.
 
 - \*\*Tööriistad:\*\* Git, GitHub, VS Code
 
-## Kontakt
+## Contact
 
 - \*\*GitHub:\*\*  [github.com/krista-hein](https://github.com/krista-hein)
 
