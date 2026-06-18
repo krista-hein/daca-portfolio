@@ -102,16 +102,15 @@ The structure of this portfolio replicates an enterprise data pipeline lifecycle
 
 ### Week 9 & 10: Career Integration and Portfolio Optimization
 
-**🎯 Objectives:**  Professional positioning, translating code to commercial business value, and portfolio auditing.
+**🎯 Objectives:**  Shifting from a technical analyst to a strategic partner by translating code into commercial business value. This phase focused on professional positioning, portfolio auditing, and preparing for executive-level communication.
 
-**💎 Key Outcomes:** Optimized documentation using the STAR method (Situation, Task, Action, Result) to map technical metrics directly to employer business needs.
+**💎 Key Outcomes:** 
+* Developed a **Data Analyst Recruitment Guide** from an employer's perspective.
+* Engineered a **7-minute "Board Meeting" presentation** for UrbanStyle leadership, successfully passing the "So What?" test.
+* Mapped 8 weeks of technical milestones (from SQL cleaning to API automation) into high-impact **STAR-method narratives** (Situation, Task, Action, Result) for technical interviews.
+* Optimized the **GitHub Profile README and Pinned Repositories** to pass the "30-second recruiter test," ensuring technical progression and business impact are visible at first glance
 
 
-### Week 11:
-
-  *Final Capstone Delivery (Upcoming...)*
-
-  
 
 ## 🛠️ Technical Stack & Core Competencies
 
