@@ -7,7 +7,8 @@ Minu missiooniks sel nädalal oli luua tehniline fundament ja "Single Source of 
 
 ## Individuaalsed saavutused
 - **Keskkonna seadistamine:** Seadistasin GitHubi portfoolio, Supabase andmebaasi ühenduse ja NotebookLM-i.
-- **Esimene kontakt andmetega:** Viisin läbi esimesed päringud `sales`(15 000+ rida) ja `customers` (3000+ rida) tabelites, et mõista andmete mahtu.
+- **Andmebaasi vundamendi loomine**: Lõin SQL-i abil oma esimese tabeli team_members ja sisestasin sinna andmed, valideerides sellega tehnilise valmiduse edasiseks analüüsiks.
+- **AI-toetatud õppekeskkonna käivitamine**: Seadistasin NotebookLM-i, laadides üles 4 CORE RAG faili, ning genereerisin esimese audio-ülevaate UrbanStyle'i ärikontekstist ja tegelaskujudest.
 
 
 ## Meeskonnatöö tulemused
