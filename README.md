@@ -1,114 +1,134 @@
-# DACA Portfoolio
+# Krista Hein - Data Analytics Portfolio 
 
- \*\*Programm:\*\* Data Analyst Career Accelerator (DACA)
+An intensive, project-driven Data Analytics portfolio developed during the **Data Analyst Career Accelerator (DACA)** program. This repository demonstrates my technical execution and ability to transform raw, unstructured retail data into actionable strategic insights that support executive decision-making.
 
- \*\*Osaleja:\*\* Krista Hein
+ **Programm:** Data Analyst Career Accelerator (DACA) 
  
- \*\*Algus:\*\* 24.03.2026
+ **Program Timeline:** 24.03.2026 - 05.06.2026
 
-## Kirjeldus
+##  👤  Profile and Business Context
 
-See repositoorium sisaldab minu DACA õppeprojekte ja portfooliot.
+In this portfolio, I act as a Data Analyst for **UrbanStyle Ltd**, a fashion retail company preparing for a **€500,000 business expansion investment**. To minimize investment risk, the company's executive leadership required trustworthy data regarding customer behavior, channel performance, and marketing efficiency. 
 
-## Projektid
-
-### Week 0: Onboarding
-
-* Fookus tööriistade seadistamisel:
-    - GitHub seadistamine ✅
-    - Supabase seadistamine ✅
-    - VS Code seadistamine ✅
-    - Power BI ✅
-    - Python seadistamine ✅
-    - NotebookLM seadistamine ✅
-* Tutvumine UrbanStyle meeskonnaga ja ärikontekstiga.
-* Tutvumine oma meeskonnaga ning Charteri loomine.
-
-### Week 1: SQL Põhitõed ja andmete avastamine
-
-* Andmebaasist andmete pärimine SQLiga:
-    - SELECT, WHERE, ORDER BY, LIMIT
-* UrbanStyle tabelite esmane audit, et mõista andmete mahtu ja struktuuri.
-
-### Week 2: SQL Andmete Puhastamine
-
-* Fookuses andmekvaliteedi saavutamine:
-    - duplikaatide eemaldamine,
-    - NULL väärtuste käsitlemine,
-    - tekstiväljade ühtlustamine.
-* Lõime testkoopiad
-* dokumenteerisime puhastusprotsessi audit log abil
-
-### Week 3: SQL JOINid ja andmete ühendamine
-
-* Tabelite ühendamine:
-    - INNER, LEFT, FULL JOIN
-* Kes on parimad kliendid (sales, customers)
-* Millised tooted pole kunagi müünud (sales, products)
-
-### Week 4: SQL agregatsioon ja äri-KPI-d
-
-* Andmete koondamine:
-    - GROUP BY, HAVING
-* KPIde arvutamine
-* CTE-d ja aknafunktsioonid
-
-### Week 5: Visualiseerimine Power BI-ga
-
-* Andmete visualiseeriise põhimõtted:
-    - õige diagrammitüübi valik,
-    - *data-ink ratio*,
-    - dashboard hierarhia
-* Sidusrühmadele suunitlus
-
-### Week 6: Andmelugude jutustamine (Storytelling)
-
-* Dashboard'ide viimistlemine narratiiviks
-    - juhtide kokkuvõte (executive summary),
-    - annotatsioonid,
-    - andmete esitlemine.
-
-### Week 7: Python ja Pandas – Kliendisegmenteerimine
-
-* Üleminek SQL-ilt Pythonile:
-    - pandas
-    - RFM analüüs
-
-### Week 8: API-d ja automatiseeritud andmetoru (Pipeline)
-
-* Automatiseeritud andmetoru loomine:
-    - pärib andmed SupaBase APIst,
-    - puhastab andmed,
-    - genereerib joonised ja outputid.
-* Koodi modulaasrus, veakäsitlus, logimine
-
-### Week 9: Karjääri integratsioon ja värbaja vaade
-
-* Ettevalmistus tööturule sisenemiseks.
-    - Andmeanalalüütiku CV koostamine.
-    - LinkedIN profiili viimistlemine.
-    - Värbamisprotsess läbi tööandja silmade.
+My role was to audit, clean, model, and automate UrbanStyle's data pipelines from scratch—moving from corrupt database fragments to verified customer analytics, automated APIs, and interactive dashboards designed for stakeholder review.
 
 
-### Week 10: 
+## :page_facing_up: Portfolio Business Thread
 
-            (Tulemas... )
+The structure of this portfolio replicates an enterprise data pipeline lifecycle, answering a critical business question at every stage:
 
-## Oskused
+| Stage | Business question | Technical focus & Method | Portfolio Evidence| 
+| :--- | :--- | :--- | :--- |
+| **Data Quality** | Can UrbanStyle's sales and revenue numbers be trusted? | SQL Auditing, Duplicate Isolation,  & Clean-up | Week 1-2 |
+| **Business Reporting** | What is currently happening across sales, customers, products and channels?| Relational Database Modeling and SQL Aggregations | Week 3-4 |
+| **Data Storytelling** | What is the key takeaway and stratgic recommendation for management?  | Power BI Dashboard Engineering & Storytelling | Week 5-6 |
+| **Customer Analysis**| Who are UrbanStyle's VIP clients, and which groups face churn? | Python Pandas & RFM Customer Segmentation | Week 7 |
+| **Automation** | How can we refresh analytics without manual CSV extraction and data processing? | Modular Python API Pipelines and Error Logging | Week 8 |
 
-- \*\*SQL:\*\* PostgreSQL, Supabase
 
-- \*\*Python:\*\* pandas, plotly 
+## :notebook: Week-by-week Project Breakdown
 
-- \*\*Visualiseerimine:\*\* Power BI / Streamlit 
+### Week 0: Onboarding & Architecture Setup
 
-- \*\*Tööriistad:\*\* Git, GitHub, VS Code
+**🎯 Objectives:** Environment initialization, analytics workflow setup, and team alignment.
 
-## Kontakt
+**💎 Key Outcomes:** 
+* Configured a local development stack utilizing VS Code, Python, Supabase (PostgreSQL), Git, and Power BI.
+* Learned about UrbanStyle business case and project context.
+* Co-authored the formal Analytics Team Charter and defined baseline business KPIs for UrbanStyle's expansion framework.
 
-- \*\*GitHub:\*\*  [github.com/krista-hein](https://github.com/krista-hein)
+### Week 1: SQL Fundamentals and Data Exploration
 
-- \*\*LinkedIN:\*\* [linkedin.com/krista-hein](https://www.linkedin.com/in/krista-hein/)
+**🎯 Objectives:** Initial structural database profiling and data volume auditing.
 
-- \*\*Email:\*\* kristahein.mail@gmail.com
+**💎 Key Outcomes:** 
+* Applied `SELECT`, `WHERE`, `ORDER BY`, and `LIMIT` to audit raw transaction and customer tables.
+* Succcessfully mapped out data fragmentation, missing indices, and formatting inconsistencies across transactional records.
+ 
+
+### Week 2: SQL Data Cleaning & Quality Assurance
+
+**🎯 Objectives:** Systematic database cleanup, data preservation, and strict audit logging.
+
+**💎 Key Outcomes:** **Identified and removed 5,116 duplicate rows (representing 33.58% of total database volume)** originating from repetitive entries. Prevented executive misdirection by **eliminating approximately €286,000 in overstated revenue**. Handled `NULL` values via `COALESCE`, standardized city names with `CASE WHEN`, and documented actions in an immutable audit log.
+
+
+### Week 3: SQL JOINs and Relational Data Integration
+
+**🎯 Objectives:** Combining fragmented data silos into an operational single source of truth.
+
+**💎 Key Outcomes:**
+* Engineered multi-table `INNER JOIN` and `LEFT JOIN` structures to link `sales`, `customers`, and `products`.
+* Mapped out cross-channel performance trends and identified non-performing inventory items with zero historical sales to optimize holding costs.
+
+
+### Week 4: SQL Aggregation and Advanced Business KPIs
+
+**🎯 Objectives:** Transforming granular transactions into macro-level business intelligence.
+
+**💎 Key Outcomes:**
+* Developed complex analytical queries utilizing `GROUP BY`, `HAVING`, and Common Table Expressions (CTEs).
+* Formulated core organizational metrics, including Average Order Value (AOV), Customer Lifetime Value (CLV), and monthly category growth trends.
+
+
+### Week 5 & 6: Data Visualization & Stakeholder Storytelling (Power BI)
+
+**🎯 Objectives:** Executive-level UI/UX dashboard design and data-to-insight synthesis
+
+**💎 Key Outcomes:** 
+* Designed interactive business dashboards in Power BI. Focused heavily on optimal data-ink ratios, intuitive visual hierarchies, and contextual annotations.
+* Translated dense data views into clear executive summaries tailored specifically for presentation to stakeholders overseeing the €500k investment fund.
+
+
+### Week 7: Python Pandas & RFM Customer Segmentation
+
+**🎯 Objectives:**  Transitioning from database queries to programmatic statistical customer profiling.
+
+**💎 Key Outcomes:** 
+* Migrated the data stack from SQL to a Python environment to perform an RFM (Recency, Frequency, Monetary) segmentation analysis.
+* **Isolated 245 high-value VIP Champions who generate 42% of total company revenue**, giving marketing teams a laser-focused target list for retention campaigns.
+
+
+### Week 8: APIs and Automated Data Pipelines
+
+**🎯 Objectives:**  Production automation, modular script engineering, and data pipeline orchestration.
+
+**💎 Key Outcomes:** 
+* Built an end-to-end automated data pipeline connecting Python directly to the Supabase REST API.
+* Engineered automated data fetching, continuous cleaning rules, and automated Plotly dashboard exports.
+* Applied error handling, and logging.
+* **The complete pipeline processes data seamlessly in just 2.32 seconds, saving an estimated 4 hours of manual labor per week.**
+
+
+### Week 9 & 10: Career Integration and Portfolio Optimization
+
+**🎯 Objectives:**  Shifting from a technical analyst to a strategic partner by translating code into commercial business value. This phase focused on professional positioning, portfolio auditing, and preparing for executive-level communication.
+
+**💎 Key Outcomes:** 
+* Developed a **Data Analyst Recruitment Guide** from an employer's perspective.
+* Engineered a **7-minute "Board Meeting" presentation** for UrbanStyle leadership, successfully passing the "So What?" test.
+* Mapped 8 weeks of technical milestones (from SQL cleaning to API automation) into high-impact **STAR-method narratives** (Situation, Task, Action, Result) for technical interviews.
+* Optimized the **GitHub Profile README and Pinned Repositories** to pass the "30-second recruiter test," ensuring technical progression and business impact are visible at first glance
+
+
+
+## 🛠️ Technical Stack & Core Competencies
+
+- **SQL (PostgreSQL):** Advanced Querying (`SELECT`, `WHERE`), Aggregations (`GROUP BY`, `HAVING`), Relational Modeling (`JOINs`), Database Clean-up (`COALESCE`, `CASE WHEN`), and Performance Optimization (CTEs).
+- **Python & Data Science:** Pandas DataFrames, automated data cleaning, statistical data aggregation, and modular script orchestration.
+- **Visualization & Business Intelligence:** Power BI (DAX modeling, layout architecture), Plotly Python library, clutter reduction, and audience-centric business storytelling.
+- **Infrastructure & Workflows:** Git, GitHub, REST APIs, Supabase, VS Code, automated system logging, and environment management.
+
+
+## 🤖 Responsible AI Integration 
+
+I utilize advanced AI tools (including ChatGPT, Claude, and NotebookLM) as an acceleration and optimization layer for my workflow. I deploy AI primarily for debugging complex code snippets, and refining business explanations. Crucially, I maintain complete human ownership over analytical logic, manual data validation, and final business recommendations.
+
+--- 
+
+## Contact
+
+- **GitHub:**  [github.com/krista-hein](https://github.com/krista-hein)
+- **LinkedIN:** [linkedin.com/krista-hein](https://www.linkedin.com/in/krista-hein/)
+- **Email:** [kristahein.mail@gmail.com](mailto:kristahein.mail@gmail.com)
 
