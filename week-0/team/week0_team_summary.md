@@ -25,8 +25,12 @@ NotebookLM:  https://notebooklm.google.com/notebook/7ceef76a-8039-4dd8-826b-6ae6
 
 Team Charter: GitHubis + Supabase'is -- sotsiaalne leping
 
-SUURIM ÜLLATUS: Nelja meeskonna liikme asemel oli kohtumisele tulnud viis liiget.
 
-SOOVITUS TOOMASELE: [1-2 lauset]
+**SUURIM ÜLLATUS**
+* **AI võimekus**: NotebookLM suutis kõigest 4 CORE RAG faili põhjal genereerida üllatavalt täpse audio-ülevaate UrbanStyle'i äriprobleemidest, tuvastades kohe Kristi ja Toomase erinevad ootused Lisaks saime teada, et kuigi UrbanStyle on kasvanud, oli müügitabelis (sales) 15 000+ rida, millest IT-juht Toomase sõnul üle 5000 rea duplikaadid"
 
-PUUDUVAD ANDMED: Rollide jagamisega oli segadus, kuna grupi liikmete arv ei klappinud. Ülesandekaartide juhised olid kohati segased - näiteks ALAÜLESANDE KAART B: Supabase Seadistaja punkt 12. "Tee screenshot tulemustest".
+**SOOVITUS TOOMASELE**
+* **Andmekvaliteedi standardid**: Kuna andmebaasis on tuvastatud massiliselt duplikaate ja puuduvaid e-maile, soovitame kehtestada ranged andmesisestuse reeglid juba kassa- ja e-poe liideses, et vältida 'andmekaose' süvenemist.
+
+**PUUDUVAD ANDMED**
+* Meil on olemas tehniline ligipääs tabelitele, kuid meil puudub veel konkreetne probleemipüstitus või Kristi Tamme ja Toomas Kase poolsed juhised, millist äriprobleemi me esimesena lahendama peaksime.
